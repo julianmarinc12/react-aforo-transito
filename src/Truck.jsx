@@ -18,7 +18,7 @@ export const Truck = () => {
       <div className="truck">
         
         <img src={truck} alt="" className="img-truck" onClick={ increment }/>
-        <h1>Autobuses: { counter }</h1>
+        <h1>Camiones: { counter }</h1>
         <br />
 
         <button onClick={ increment } >+1</button>
